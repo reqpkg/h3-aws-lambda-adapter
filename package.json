@@ -1,0 +1,49 @@
+{
+  "name": "h3-aws-lambda-adapter",
+  "version": "1.0.3",
+  "description": "⚡️ Run h3 on AWS Lambda",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./dist/index.mjs",
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "author": {
+    "name": "strikebu77",
+    "email": "strikebu77@gmail.com",
+    "url": "https://github.com/strikebu77"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reqpkg/h3-aws-lambda-adapter.git"
+  },
+  "keywords": [
+    "h3",
+    "aws-lambda"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.138",
+    "@types/node": "^20.14.2",
+    "reqprettier": "^1.0.17",
+    "unbuild": "^2.0.0",
+    "vitest": "^1.6.0"
+  },
+  "prettier": "reqprettier",
+  "dependencies": {
+    "h3": "^1.11.1",
+    "ufo": "^1.5.3"
+  }
+}

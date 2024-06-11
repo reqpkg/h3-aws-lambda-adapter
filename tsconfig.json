@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": false,
+    "skipLibCheck": true,
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": false,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "lib": ["ESNext", "DOM"],
+    "types": ["vitest/globals", "node"],
+    "rootDir": "."
+  },
+  "include": ["src", "__tests__"]
+}
