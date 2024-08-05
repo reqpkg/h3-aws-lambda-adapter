@@ -36,7 +36,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.138",
-    "@types/node": "^20.14.2",
+    "@types/node": "^22.1.0",
     "reqprettier": "^1.0.17",
     "unbuild": "^2.0.0",
     "vitest": "^1.6.0"
