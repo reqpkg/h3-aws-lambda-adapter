@@ -38,7 +38,7 @@
     "@types/aws-lambda": "^8.10.138",
     "@types/node": "^22.5.5",
     "reqprettier": "^1.0.17",
-    "unbuild": "^2.0.0",
+    "unbuild": "^3.0.1",
     "vitest": "^2.1.1"
   },
   "prettier": "reqprettier",
