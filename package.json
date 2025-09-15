@@ -39,7 +39,7 @@
     "@types/node": "^22.5.5",
     "reqprettier": "^1.0.17",
     "unbuild": "^3.2.0",
-    "vitest": "^2.1.1"
+    "vitest": "^3.2.4"
   },
   "prettier": "reqprettier",
   "dependencies": {
